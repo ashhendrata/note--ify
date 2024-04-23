@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/parentLayout"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+ <LinearLayout
+     android:layout_weight="1"
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="0dp">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:background="#caf0f8" />
+
+ </LinearLayout>
+
+
+
+  <HorizontalScrollView
+      android:id="@+id/scrollView"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="2">
+
+   <RelativeLayout
+       android:id="@+id/parentLayoutvv"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/whiteKeysLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#caf0f8"
+        android:orientation="horizontal">
+
+
+     <Button
+         android:id="@+id/keyC5"
+         style="@style/KeyButtonStyle"
+         android:text="C" />
+
+     <Button
+         android:id="@+id/keyD5"
+         style="@style/KeyButtonStyle"
+         android:text="D" />
+
+     <Button
+         android:id="@+id/keyE5"
+         style="@style/KeyButtonStyle"
+         android:text="E" />
+
+
+     <Button
+         android:id="@+id/keyF5"
+         style="@style/KeyButtonStyle"
+         android:text="F" />
+
+     <Button
+         android:id="@+id/keyG5"
+         style="@style/KeyButtonStyle"
+         android:text="G" />
+
+     <Button
+         android:id="@+id/keyA6"
+         style="@style/KeyButtonStyle"
+         android:text="A" />
+
+     <Button
+         android:id="@+id/keyB6"
+         style="@style/KeyButtonStyle"
+         android:text="B" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/blackKeysLayout"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+
+     <Button
+         android:id="@+id/keyC5Sharp"
+         style="@style/SharpkeyButtonStyle"
+         android:layout_marginStart="35dp"
+         />
+
+     <Button
+         android:id="@+id/keyD5Sharp"
+         android:layout_marginStart="20dp"
+         style="@style/SharpkeyButtonStyle" />
+
+     <Button
+         android:id="@+id/keyF5Sharp"
+         android:layout_marginStart="70dp"
+         style="@style/SharpkeyButtonStyle" />
+
+     <Button
+         android:id="@+id/keyG5Sharp"
+         android:layout_marginStart="17dp"
+         style="@style/SharpkeyButtonStyle" />
+
+     <Button
+         android:id="@+id/keyA6Sharp"
+         android:layout_marginStart="17dp"
+         style="@style/SharpkeyButtonStyle" />
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+   </RelativeLayout>
+
+</HorizontalScrollView>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="0dp"
+     android:layout_weight="1"
+     android:orientation="vertical">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1"
+      android:background="#caf0f8" />
+
+ </LinearLayout>
+
+
+</LinearLayout>

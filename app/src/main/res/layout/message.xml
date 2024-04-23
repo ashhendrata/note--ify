@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/messageLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:padding="4dp"
+    android:background="@drawable/bubble">  <!-- Assuming bubble is a valid drawable -->
+
+        <TextView
+            android:id="@+id/textMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp"
+            android:textColor="#333"
+            android:layout_alignParentStart="true" /> <!-- Aligns the TextView to the start of the RelativeLayout -->
+
+</RelativeLayout>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:orientation="horizontal"-->
+<!--    android:padding="8dp">-->
+
+
+
+<!--        <TextView-->
+<!--            android:id="@+id/text_view_message"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textSize="16sp" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button_simple"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Click Me" />-->
+
+<!--</LinearLayout>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:background="@drawable/bubble"-->
+<!--    android:padding="4dp"-->
+<!--    android:orientation="horizontal"-->
+<!--    android:gravity="end"-->
+<!--    android:layout_alignParentEnd="true">-->
+
+<!--        <TextView-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:id="@+id/textMessage"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="18sp"-->
+<!--        android:textColor="#333" />-->
+<!--</LinearLayout>-->
+
