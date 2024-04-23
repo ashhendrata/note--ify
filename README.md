@@ -1,6 +1,6 @@
 # 🎹 Note-ify 🎶
 
-<img width="900" alt="Screenshot 2024-04-21 at 7 24 06 AM" src="https://github.com/ashhendrata/note--ify/assets/134671782/618c19d9-6037-4174-8671-8af430b25af9">
+<img width="1000" alt="Screenshot 2024-04-21 at 7 24 06 AM" src="https://github.com/ashhendrata/note--ify/assets/134671782/618c19d9-6037-4174-8671-8af430b25af9">
 
 
 Secrecy is important. Especially for kidnapping victims and individuals in abusive relationships... 
